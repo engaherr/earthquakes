@@ -1,23 +1,12 @@
-package com.example.earthquakes.earthquakes;
+package com.example.earthquakes.main;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.example.earthquakes.api.ApiClient;
-import com.example.earthquakes.api.EarthquakeJSONResponse;
-import com.example.earthquakes.api.Feature;
+import com.example.earthquakes.Earthquake;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.util.ArrayList;
 import java.util.List;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 public class MainViewModel extends ViewModel {
 

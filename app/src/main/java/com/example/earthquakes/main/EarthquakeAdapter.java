@@ -1,4 +1,4 @@
-package com.example.earthquakes.earthquakes;
+package com.example.earthquakes.main;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.earthquakes.Earthquake;
 import com.example.earthquakes.databinding.EqListItemBinding;
 
 public class EarthquakeAdapter extends ListAdapter<Earthquake, EarthquakeAdapter.EarthquakeViewHolder> {

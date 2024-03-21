@@ -1,5 +1,6 @@
-package com.example.earthquakes.earthquakes;
+package com.example.earthquakes.main;
 
+import com.example.earthquakes.Earthquake;
 import com.example.earthquakes.api.ApiClient;
 import com.example.earthquakes.api.EarthquakeJSONResponse;
 import com.example.earthquakes.api.Feature;

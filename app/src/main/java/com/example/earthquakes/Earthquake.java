@@ -1,4 +1,4 @@
-package com.example.earthquakes.earthquakes;
+package com.example.earthquakes;
 
 import java.util.Objects;
 
